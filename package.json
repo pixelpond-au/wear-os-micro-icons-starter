@@ -1,0 +1,48 @@
+﻿{
+  "name": "wear-os-micro-icons-starter",
+  "version": "0.1.0",
+  "description": "Free 24-icon Wear OS pixel icon starter set for watch faces, WFF, Watch Face Studio, complications, tiles, and tiny wrist UI.",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://pixelpond.au/icon-packs/free-wear-os-icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelpond-au/wear-os-micro-icons-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelpond-au/wear-os-micro-icons-starter/issues"
+  },
+  "keywords": [
+    "wear-os",
+    "watch-face",
+    "watch-face-format",
+    "wff",
+    "watch-face-studio",
+    "complication",
+    "monochromatic-image",
+    "aod",
+    "ambient",
+    "pixel-icons",
+    "pixel-art",
+    "icons",
+    "android-wear"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "manifest.json",
+    "png/",
+    "monochrome/",
+    "tints/",
+    "source/",
+    "examples/"
+  ],
+  "exports": {
+    "./manifest.json": "./manifest.json",
+    "./png/*": "./png/*",
+    "./monochrome/*": "./monochrome/*",
+    "./tints/*": "./tints/*",
+    "./source/*": "./source/*",
+    "./examples/*": "./examples/*",
+    "./package.json": "./package.json"
+  }
+}

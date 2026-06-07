@@ -1,0 +1,36 @@
+<!--
+  Pixelpond Wear OS Micro Icons — fish
+  Watch Face Format (WFF) usage snippet.
+
+  WFF reference (image usage + tinting):
+    https://developer.android.com/training/wearables/wff/images
+
+  IMPORTANT — Android resource naming:
+    Copy a PNG into your WFF project under  res/drawable-nodpi/  (recommended for
+    pixel art so the system does not resample it) or  res/drawable/ , and rename it
+    to a valid Android resource name: lowercase a-z, 0-9, underscore only.
+      png/24/fish.png   ->   res/drawable-nodpi/fish_24.png
+    Reference it by name WITHOUT the extension:  resource="fish_24"
+
+  Pick the export that matches your slot:
+    16px slot -> fish_16   |   20px -> fish_20   |   24px -> fish_24   ...
+  These are static, complication-safe icons. For animated, data-reactive
+  decorations use the separate "Wear OS Motion Charms" pack.
+-->
+
+<!-- 1) Basic placement: a 24x24 icon at (x, y) on the face. -->
+<PartImage x="158" y="120" width="24" height="24">
+  <Image resource="fish_24" />
+</PartImage>
+
+<!-- 2) Theme color: ship a PRE-TINTED export from the tints/ folder.
+        tints/pond/fish-24.png  ->  res/drawable-nodpi/fish_pond_24.png  -->
+<PartImage x="158" y="120" width="24" height="24">
+  <Image resource="fish_pond_24" />
+</PartImage>
+
+<!-- 3) Ambient-safe note:
+        The icon is a single 1-bit-friendly ink shape on transparency, so it stays
+        crisp in ambient (low-power) mode. For ambient, prefer the white or one-bit
+        export on a dark dial, keep it at >=16px, and avoid scaling between sizes —
+        use the export that already matches the target size for hard pixel edges. -->

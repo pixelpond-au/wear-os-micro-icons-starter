@@ -1,0 +1,2399 @@
+{
+  "pack": {
+    "id": "wear-os-micro-icons-starter",
+    "name": "Wear OS Micro Icons — Free Starter",
+    "version": "0.1.0",
+    "status": "free-starter",
+    "publisher": "Pixelpond",
+    "homepage": "https://pixelpond.au/icon-packs/wear-os-micro-icons",
+    "description": "A free 24-icon starter set from the Wear OS Micro Icons pack: complication-safe pixel icons for watch faces and tiny wrist UI.",
+    "sourceGrid": "16x16",
+    "exportSizes": [
+      16,
+      20,
+      24,
+      32,
+      48
+    ],
+    "baseColor": "#243D58",
+    "drawingRules": {
+      "antiAliasing": false,
+      "hardEdgePx": 1,
+      "transparentBackground": true,
+      "scaling": "nearest-neighbor",
+      "monochromeFirst": true
+    },
+    "palette": {
+      "default-ink": "#243D58",
+      "black": "#000000",
+      "white": "#FFFFFF",
+      "pond": "#16616F",
+      "night": "#79D7E8",
+      "cream": "#243D58",
+      "warning": "#F2A93B",
+      "heart": "#E35D5B",
+      "battery": "#6FBF73"
+    },
+    "namingConventions": {
+      "base": "png/<size>/<id>.png",
+      "variant": "<group>/<variant>/<id>-<size>.png",
+      "svg": "source/svg/<id>.svg",
+      "grid": "source/grid/<id>.json"
+    },
+    "iconsTotal": 24,
+    "license": "Free Sampler License (commercial use of the sampler files; no redistribution as an icon pack). See LICENSE.md.",
+    "fullPack": {
+      "name": "Wear OS Micro Icons",
+      "icons": 160,
+      "url": "https://pixelpond.au/icon-packs/wear-os-micro-icons"
+    }
+  },
+  "categories": [
+    {
+      "id": "battery-power",
+      "name": "Battery and Power",
+      "ready": 2
+    },
+    {
+      "id": "health-body",
+      "name": "Health and Body",
+      "ready": 2
+    },
+    {
+      "id": "steps-activity",
+      "name": "Steps and Activity",
+      "ready": 2
+    },
+    {
+      "id": "weather-sky",
+      "name": "Weather and Sky",
+      "ready": 4
+    },
+    {
+      "id": "time-calendar-alarms",
+      "name": "Time, Calendar, and Alarms",
+      "ready": 3
+    },
+    {
+      "id": "navigation-travel",
+      "name": "Navigation and Travel",
+      "ready": 2
+    },
+    {
+      "id": "calls-messages",
+      "name": "Calls and Messages",
+      "ready": 2
+    },
+    {
+      "id": "media-controls",
+      "name": "Media and Controls",
+      "ready": 2
+    },
+    {
+      "id": "status-system",
+      "name": "Status and System",
+      "ready": 3
+    },
+    {
+      "id": "pets-cozy-fun",
+      "name": "Pets, Cozy, and Fun",
+      "ready": 1
+    },
+    {
+      "id": "watch-face-ui-misc",
+      "name": "Watch Face UI and Misc",
+      "ready": 1
+    }
+  ],
+  "icons": [
+    {
+      "id": "heart",
+      "name": "Heart",
+      "category": "health-body",
+      "tags": [
+        "heart",
+        "health-body",
+        "love",
+        "favorite",
+        "like"
+      ],
+      "aliases": [
+        "heart",
+        "love",
+        "favorite",
+        "like",
+        "health",
+        "wishlist"
+      ],
+      "recommendedUse": "Use as a health, love, favorite, or like marker in Wear OS health and body screens.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Symmetric solid heart: two 2px lobe tops over a 1px center dip, sides curve down via a single-step orthogonal staircase to one bottom point.",
+      "files": {
+        "svg": "source/svg/heart.svg",
+        "grid": "source/grid/heart.json",
+        "png": {
+          "16": "png/16/heart.png",
+          "20": "png/20/heart.png",
+          "24": "png/24/heart.png",
+          "32": "png/32/heart.png",
+          "48": "png/48/heart.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/heart-16.png",
+            "monochrome/black/heart-20.png",
+            "monochrome/black/heart-24.png",
+            "monochrome/black/heart-32.png",
+            "monochrome/black/heart-48.png"
+          ],
+          "white": [
+            "monochrome/white/heart-16.png",
+            "monochrome/white/heart-20.png",
+            "monochrome/white/heart-24.png",
+            "monochrome/white/heart-32.png",
+            "monochrome/white/heart-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/heart-16.png",
+            "monochrome/one-bit/heart-20.png",
+            "monochrome/one-bit/heart-24.png",
+            "monochrome/one-bit/heart-32.png",
+            "monochrome/one-bit/heart-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/heart-16.png",
+            "tints/pond/heart-20.png",
+            "tints/pond/heart-24.png",
+            "tints/pond/heart-32.png",
+            "tints/pond/heart-48.png"
+          ],
+          "night": [
+            "tints/night/heart-16.png",
+            "tints/night/heart-20.png",
+            "tints/night/heart-24.png",
+            "tints/night/heart-32.png",
+            "tints/night/heart-48.png"
+          ],
+          "cream": [
+            "tints/cream/heart-16.png",
+            "tints/cream/heart-20.png",
+            "tints/cream/heart-24.png",
+            "tints/cream/heart-32.png",
+            "tints/cream/heart-48.png"
+          ],
+          "warning": [
+            "tints/warning/heart-16.png",
+            "tints/warning/heart-20.png",
+            "tints/warning/heart-24.png",
+            "tints/warning/heart-32.png",
+            "tints/warning/heart-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "heart-pulse",
+      "name": "Heart Pulse",
+      "category": "health-body",
+      "tags": [
+        "health",
+        "heart",
+        "pulse",
+        "ecg",
+        "vitals",
+        "body"
+      ],
+      "aliases": [
+        "heartbeat",
+        "ecg",
+        "cardio",
+        "vitals",
+        "heart-rate"
+      ],
+      "recommendedUse": "Use for heart-rate, cardio, or vital-signs readouts in a health and body tracking context.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Solid two-lobe heart with a 1px ECG trace (flat-peak-trough-flat) carved through rows 8-10 as fully enclosed negative space.",
+      "files": {
+        "svg": "source/svg/heart-pulse.svg",
+        "grid": "source/grid/heart-pulse.json",
+        "png": {
+          "16": "png/16/heart-pulse.png",
+          "20": "png/20/heart-pulse.png",
+          "24": "png/24/heart-pulse.png",
+          "32": "png/32/heart-pulse.png",
+          "48": "png/48/heart-pulse.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/heart-pulse-16.png",
+            "monochrome/black/heart-pulse-20.png",
+            "monochrome/black/heart-pulse-24.png",
+            "monochrome/black/heart-pulse-32.png",
+            "monochrome/black/heart-pulse-48.png"
+          ],
+          "white": [
+            "monochrome/white/heart-pulse-16.png",
+            "monochrome/white/heart-pulse-20.png",
+            "monochrome/white/heart-pulse-24.png",
+            "monochrome/white/heart-pulse-32.png",
+            "monochrome/white/heart-pulse-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/heart-pulse-16.png",
+            "monochrome/one-bit/heart-pulse-20.png",
+            "monochrome/one-bit/heart-pulse-24.png",
+            "monochrome/one-bit/heart-pulse-32.png",
+            "monochrome/one-bit/heart-pulse-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/heart-pulse-16.png",
+            "tints/pond/heart-pulse-20.png",
+            "tints/pond/heart-pulse-24.png",
+            "tints/pond/heart-pulse-32.png",
+            "tints/pond/heart-pulse-48.png"
+          ],
+          "night": [
+            "tints/night/heart-pulse-16.png",
+            "tints/night/heart-pulse-20.png",
+            "tints/night/heart-pulse-24.png",
+            "tints/night/heart-pulse-32.png",
+            "tints/night/heart-pulse-48.png"
+          ],
+          "cream": [
+            "tints/cream/heart-pulse-16.png",
+            "tints/cream/heart-pulse-20.png",
+            "tints/cream/heart-pulse-24.png",
+            "tints/cream/heart-pulse-32.png",
+            "tints/cream/heart-pulse-48.png"
+          ],
+          "warning": [
+            "tints/warning/heart-pulse-16.png",
+            "tints/warning/heart-pulse-20.png",
+            "tints/warning/heart-pulse-24.png",
+            "tints/warning/heart-pulse-32.png",
+            "tints/warning/heart-pulse-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "steps",
+      "name": "Steps",
+      "category": "steps-activity",
+      "tags": [
+        "steps",
+        "footprints",
+        "activity",
+        "walking",
+        "fitness",
+        "pedometer"
+      ],
+      "aliases": [
+        "footprints",
+        "walk",
+        "step-count",
+        "pedometer",
+        "feet",
+        "stride"
+      ],
+      "recommendedUse": "Use for a step counter, walking activity, or pedometer/fitness tracking tile.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Two solid oval soles offset diagonally, each with a one-row negative-space gap splitting ball from heel; every ink pixel keeps an orthogonal neighbour.",
+      "files": {
+        "svg": "source/svg/steps.svg",
+        "grid": "source/grid/steps.json",
+        "png": {
+          "16": "png/16/steps.png",
+          "20": "png/20/steps.png",
+          "24": "png/24/steps.png",
+          "32": "png/32/steps.png",
+          "48": "png/48/steps.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/steps-16.png",
+            "monochrome/black/steps-20.png",
+            "monochrome/black/steps-24.png",
+            "monochrome/black/steps-32.png",
+            "monochrome/black/steps-48.png"
+          ],
+          "white": [
+            "monochrome/white/steps-16.png",
+            "monochrome/white/steps-20.png",
+            "monochrome/white/steps-24.png",
+            "monochrome/white/steps-32.png",
+            "monochrome/white/steps-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/steps-16.png",
+            "monochrome/one-bit/steps-20.png",
+            "monochrome/one-bit/steps-24.png",
+            "monochrome/one-bit/steps-32.png",
+            "monochrome/one-bit/steps-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/steps-16.png",
+            "tints/pond/steps-20.png",
+            "tints/pond/steps-24.png",
+            "tints/pond/steps-32.png",
+            "tints/pond/steps-48.png"
+          ],
+          "night": [
+            "tints/night/steps-16.png",
+            "tints/night/steps-20.png",
+            "tints/night/steps-24.png",
+            "tints/night/steps-32.png",
+            "tints/night/steps-48.png"
+          ],
+          "cream": [
+            "tints/cream/steps-16.png",
+            "tints/cream/steps-20.png",
+            "tints/cream/steps-24.png",
+            "tints/cream/steps-32.png",
+            "tints/cream/steps-48.png"
+          ],
+          "warning": [
+            "tints/warning/steps-16.png",
+            "tints/warning/steps-20.png",
+            "tints/warning/steps-24.png",
+            "tints/warning/steps-32.png",
+            "tints/warning/steps-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "run",
+      "name": "Run",
+      "category": "steps-activity",
+      "tags": [
+        "run",
+        "running",
+        "sprint",
+        "jog",
+        "steps",
+        "activity",
+        "exercise",
+        "figure",
+        "cardio"
+      ],
+      "aliases": [
+        "running",
+        "runner",
+        "sprint",
+        "jog",
+        "jogging",
+        "sprinting",
+        "exercise-run",
+        "steps-active"
+      ],
+      "recommendedUse": "Use for a running/sprint state in a steps or activity tracker, a workout-mode toggle, or a \"move/exercise\" prompt on a Wear OS watch face.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Round head over a forward-leaning torso with bent front/back arms and a wide split stride, all built as 2px orthogonal staircases so every ink pixel shares an edge.",
+      "files": {
+        "svg": "source/svg/run.svg",
+        "grid": "source/grid/run.json",
+        "png": {
+          "16": "png/16/run.png",
+          "20": "png/20/run.png",
+          "24": "png/24/run.png",
+          "32": "png/32/run.png",
+          "48": "png/48/run.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/run-16.png",
+            "monochrome/black/run-20.png",
+            "monochrome/black/run-24.png",
+            "monochrome/black/run-32.png",
+            "monochrome/black/run-48.png"
+          ],
+          "white": [
+            "monochrome/white/run-16.png",
+            "monochrome/white/run-20.png",
+            "monochrome/white/run-24.png",
+            "monochrome/white/run-32.png",
+            "monochrome/white/run-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/run-16.png",
+            "monochrome/one-bit/run-20.png",
+            "monochrome/one-bit/run-24.png",
+            "monochrome/one-bit/run-32.png",
+            "monochrome/one-bit/run-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/run-16.png",
+            "tints/pond/run-20.png",
+            "tints/pond/run-24.png",
+            "tints/pond/run-32.png",
+            "tints/pond/run-48.png"
+          ],
+          "night": [
+            "tints/night/run-16.png",
+            "tints/night/run-20.png",
+            "tints/night/run-24.png",
+            "tints/night/run-32.png",
+            "tints/night/run-48.png"
+          ],
+          "cream": [
+            "tints/cream/run-16.png",
+            "tints/cream/run-20.png",
+            "tints/cream/run-24.png",
+            "tints/cream/run-32.png",
+            "tints/cream/run-48.png"
+          ],
+          "warning": [
+            "tints/warning/run-16.png",
+            "tints/warning/run-20.png",
+            "tints/warning/run-24.png",
+            "tints/warning/run-32.png",
+            "tints/warning/run-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "battery-half",
+      "name": "Battery Half",
+      "category": "battery-power",
+      "tags": [
+        "battery",
+        "half",
+        "50",
+        "power",
+        "charge"
+      ],
+      "aliases": [
+        "battery-50"
+      ],
+      "recommendedUse": "Battery level complication at roughly half charge.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Half-width fill in the shared battery shell.",
+      "files": {
+        "svg": "source/svg/battery-half.svg",
+        "grid": "source/grid/battery-half.json",
+        "png": {
+          "16": "png/16/battery-half.png",
+          "20": "png/20/battery-half.png",
+          "24": "png/24/battery-half.png",
+          "32": "png/32/battery-half.png",
+          "48": "png/48/battery-half.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/battery-half-16.png",
+            "monochrome/black/battery-half-20.png",
+            "monochrome/black/battery-half-24.png",
+            "monochrome/black/battery-half-32.png",
+            "monochrome/black/battery-half-48.png"
+          ],
+          "white": [
+            "monochrome/white/battery-half-16.png",
+            "monochrome/white/battery-half-20.png",
+            "monochrome/white/battery-half-24.png",
+            "monochrome/white/battery-half-32.png",
+            "monochrome/white/battery-half-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/battery-half-16.png",
+            "monochrome/one-bit/battery-half-20.png",
+            "monochrome/one-bit/battery-half-24.png",
+            "monochrome/one-bit/battery-half-32.png",
+            "monochrome/one-bit/battery-half-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/battery-half-16.png",
+            "tints/pond/battery-half-20.png",
+            "tints/pond/battery-half-24.png",
+            "tints/pond/battery-half-32.png",
+            "tints/pond/battery-half-48.png"
+          ],
+          "night": [
+            "tints/night/battery-half-16.png",
+            "tints/night/battery-half-20.png",
+            "tints/night/battery-half-24.png",
+            "tints/night/battery-half-32.png",
+            "tints/night/battery-half-48.png"
+          ],
+          "cream": [
+            "tints/cream/battery-half-16.png",
+            "tints/cream/battery-half-20.png",
+            "tints/cream/battery-half-24.png",
+            "tints/cream/battery-half-32.png",
+            "tints/cream/battery-half-48.png"
+          ],
+          "warning": [
+            "tints/warning/battery-half-16.png",
+            "tints/warning/battery-half-20.png",
+            "tints/warning/battery-half-24.png",
+            "tints/warning/battery-half-32.png",
+            "tints/warning/battery-half-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "battery-charging",
+      "name": "Battery Charging",
+      "category": "battery-power",
+      "tags": [
+        "battery",
+        "charging",
+        "charge",
+        "power",
+        "bolt",
+        "lightning"
+      ],
+      "aliases": [
+        "charging",
+        "battery-charge"
+      ],
+      "recommendedUse": "Charging-state complication; lightning bolt inside the battery shell.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Edge-connected lightning bolt inside the shell.",
+      "files": {
+        "svg": "source/svg/battery-charging.svg",
+        "grid": "source/grid/battery-charging.json",
+        "png": {
+          "16": "png/16/battery-charging.png",
+          "20": "png/20/battery-charging.png",
+          "24": "png/24/battery-charging.png",
+          "32": "png/32/battery-charging.png",
+          "48": "png/48/battery-charging.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/battery-charging-16.png",
+            "monochrome/black/battery-charging-20.png",
+            "monochrome/black/battery-charging-24.png",
+            "monochrome/black/battery-charging-32.png",
+            "monochrome/black/battery-charging-48.png"
+          ],
+          "white": [
+            "monochrome/white/battery-charging-16.png",
+            "monochrome/white/battery-charging-20.png",
+            "monochrome/white/battery-charging-24.png",
+            "monochrome/white/battery-charging-32.png",
+            "monochrome/white/battery-charging-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/battery-charging-16.png",
+            "monochrome/one-bit/battery-charging-20.png",
+            "monochrome/one-bit/battery-charging-24.png",
+            "monochrome/one-bit/battery-charging-32.png",
+            "monochrome/one-bit/battery-charging-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/battery-charging-16.png",
+            "tints/pond/battery-charging-20.png",
+            "tints/pond/battery-charging-24.png",
+            "tints/pond/battery-charging-32.png",
+            "tints/pond/battery-charging-48.png"
+          ],
+          "night": [
+            "tints/night/battery-charging-16.png",
+            "tints/night/battery-charging-20.png",
+            "tints/night/battery-charging-24.png",
+            "tints/night/battery-charging-32.png",
+            "tints/night/battery-charging-48.png"
+          ],
+          "cream": [
+            "tints/cream/battery-charging-16.png",
+            "tints/cream/battery-charging-20.png",
+            "tints/cream/battery-charging-24.png",
+            "tints/cream/battery-charging-32.png",
+            "tints/cream/battery-charging-48.png"
+          ],
+          "warning": [
+            "tints/warning/battery-charging-16.png",
+            "tints/warning/battery-charging-20.png",
+            "tints/warning/battery-charging-24.png",
+            "tints/warning/battery-charging-32.png",
+            "tints/warning/battery-charging-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "category": "weather-sky",
+      "tags": [
+        "sun",
+        "sunny",
+        "clear",
+        "weather",
+        "day",
+        "bright",
+        "hot"
+      ],
+      "aliases": [
+        "sunny",
+        "clear-day"
+      ],
+      "recommendedUse": "Clear / sunny weather condition; daytime; high temperature.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/sun.svg",
+        "grid": "source/grid/sun.json",
+        "png": {
+          "16": "png/16/sun.png",
+          "20": "png/20/sun.png",
+          "24": "png/24/sun.png",
+          "32": "png/32/sun.png",
+          "48": "png/48/sun.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/sun-16.png",
+            "monochrome/black/sun-20.png",
+            "monochrome/black/sun-24.png",
+            "monochrome/black/sun-32.png",
+            "monochrome/black/sun-48.png"
+          ],
+          "white": [
+            "monochrome/white/sun-16.png",
+            "monochrome/white/sun-20.png",
+            "monochrome/white/sun-24.png",
+            "monochrome/white/sun-32.png",
+            "monochrome/white/sun-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/sun-16.png",
+            "monochrome/one-bit/sun-20.png",
+            "monochrome/one-bit/sun-24.png",
+            "monochrome/one-bit/sun-32.png",
+            "monochrome/one-bit/sun-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/sun-16.png",
+            "tints/pond/sun-20.png",
+            "tints/pond/sun-24.png",
+            "tints/pond/sun-32.png",
+            "tints/pond/sun-48.png"
+          ],
+          "night": [
+            "tints/night/sun-16.png",
+            "tints/night/sun-20.png",
+            "tints/night/sun-24.png",
+            "tints/night/sun-32.png",
+            "tints/night/sun-48.png"
+          ],
+          "cream": [
+            "tints/cream/sun-16.png",
+            "tints/cream/sun-20.png",
+            "tints/cream/sun-24.png",
+            "tints/cream/sun-32.png",
+            "tints/cream/sun-48.png"
+          ],
+          "warning": [
+            "tints/warning/sun-16.png",
+            "tints/warning/sun-20.png",
+            "tints/warning/sun-24.png",
+            "tints/warning/sun-32.png",
+            "tints/warning/sun-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "moon",
+      "name": "Moon",
+      "category": "weather-sky",
+      "tags": [
+        "moon",
+        "night",
+        "clear",
+        "weather",
+        "crescent",
+        "lunar"
+      ],
+      "aliases": [
+        "clear-night",
+        "crescent"
+      ],
+      "recommendedUse": "Clear night condition; nighttime indicator.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/moon.svg",
+        "grid": "source/grid/moon.json",
+        "png": {
+          "16": "png/16/moon.png",
+          "20": "png/20/moon.png",
+          "24": "png/24/moon.png",
+          "32": "png/32/moon.png",
+          "48": "png/48/moon.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/moon-16.png",
+            "monochrome/black/moon-20.png",
+            "monochrome/black/moon-24.png",
+            "monochrome/black/moon-32.png",
+            "monochrome/black/moon-48.png"
+          ],
+          "white": [
+            "monochrome/white/moon-16.png",
+            "monochrome/white/moon-20.png",
+            "monochrome/white/moon-24.png",
+            "monochrome/white/moon-32.png",
+            "monochrome/white/moon-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/moon-16.png",
+            "monochrome/one-bit/moon-20.png",
+            "monochrome/one-bit/moon-24.png",
+            "monochrome/one-bit/moon-32.png",
+            "monochrome/one-bit/moon-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/moon-16.png",
+            "tints/pond/moon-20.png",
+            "tints/pond/moon-24.png",
+            "tints/pond/moon-32.png",
+            "tints/pond/moon-48.png"
+          ],
+          "night": [
+            "tints/night/moon-16.png",
+            "tints/night/moon-20.png",
+            "tints/night/moon-24.png",
+            "tints/night/moon-32.png",
+            "tints/night/moon-48.png"
+          ],
+          "cream": [
+            "tints/cream/moon-16.png",
+            "tints/cream/moon-20.png",
+            "tints/cream/moon-24.png",
+            "tints/cream/moon-32.png",
+            "tints/cream/moon-48.png"
+          ],
+          "warning": [
+            "tints/warning/moon-16.png",
+            "tints/warning/moon-20.png",
+            "tints/warning/moon-24.png",
+            "tints/warning/moon-32.png",
+            "tints/warning/moon-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "category": "weather-sky",
+      "tags": [
+        "cloud",
+        "cloudy",
+        "overcast",
+        "weather",
+        "sky"
+      ],
+      "aliases": [
+        "cloudy",
+        "overcast"
+      ],
+      "recommendedUse": "Cloudy / overcast condition. Base cloud shape for the weather family.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/cloud.svg",
+        "grid": "source/grid/cloud.json",
+        "png": {
+          "16": "png/16/cloud.png",
+          "20": "png/20/cloud.png",
+          "24": "png/24/cloud.png",
+          "32": "png/32/cloud.png",
+          "48": "png/48/cloud.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/cloud-16.png",
+            "monochrome/black/cloud-20.png",
+            "monochrome/black/cloud-24.png",
+            "monochrome/black/cloud-32.png",
+            "monochrome/black/cloud-48.png"
+          ],
+          "white": [
+            "monochrome/white/cloud-16.png",
+            "monochrome/white/cloud-20.png",
+            "monochrome/white/cloud-24.png",
+            "monochrome/white/cloud-32.png",
+            "monochrome/white/cloud-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/cloud-16.png",
+            "monochrome/one-bit/cloud-20.png",
+            "monochrome/one-bit/cloud-24.png",
+            "monochrome/one-bit/cloud-32.png",
+            "monochrome/one-bit/cloud-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/cloud-16.png",
+            "tints/pond/cloud-20.png",
+            "tints/pond/cloud-24.png",
+            "tints/pond/cloud-32.png",
+            "tints/pond/cloud-48.png"
+          ],
+          "night": [
+            "tints/night/cloud-16.png",
+            "tints/night/cloud-20.png",
+            "tints/night/cloud-24.png",
+            "tints/night/cloud-32.png",
+            "tints/night/cloud-48.png"
+          ],
+          "cream": [
+            "tints/cream/cloud-16.png",
+            "tints/cream/cloud-20.png",
+            "tints/cream/cloud-24.png",
+            "tints/cream/cloud-32.png",
+            "tints/cream/cloud-48.png"
+          ],
+          "warning": [
+            "tints/warning/cloud-16.png",
+            "tints/warning/cloud-20.png",
+            "tints/warning/cloud-24.png",
+            "tints/warning/cloud-32.png",
+            "tints/warning/cloud-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rain",
+      "name": "Rain",
+      "category": "weather-sky",
+      "tags": [
+        "rain",
+        "rainy",
+        "shower",
+        "weather",
+        "precipitation",
+        "wet"
+      ],
+      "aliases": [
+        "rainy",
+        "showers"
+      ],
+      "recommendedUse": "Rain / showers.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/rain.svg",
+        "grid": "source/grid/rain.json",
+        "png": {
+          "16": "png/16/rain.png",
+          "20": "png/20/rain.png",
+          "24": "png/24/rain.png",
+          "32": "png/32/rain.png",
+          "48": "png/48/rain.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/rain-16.png",
+            "monochrome/black/rain-20.png",
+            "monochrome/black/rain-24.png",
+            "monochrome/black/rain-32.png",
+            "monochrome/black/rain-48.png"
+          ],
+          "white": [
+            "monochrome/white/rain-16.png",
+            "monochrome/white/rain-20.png",
+            "monochrome/white/rain-24.png",
+            "monochrome/white/rain-32.png",
+            "monochrome/white/rain-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/rain-16.png",
+            "monochrome/one-bit/rain-20.png",
+            "monochrome/one-bit/rain-24.png",
+            "monochrome/one-bit/rain-32.png",
+            "monochrome/one-bit/rain-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/rain-16.png",
+            "tints/pond/rain-20.png",
+            "tints/pond/rain-24.png",
+            "tints/pond/rain-32.png",
+            "tints/pond/rain-48.png"
+          ],
+          "night": [
+            "tints/night/rain-16.png",
+            "tints/night/rain-20.png",
+            "tints/night/rain-24.png",
+            "tints/night/rain-32.png",
+            "tints/night/rain-48.png"
+          ],
+          "cream": [
+            "tints/cream/rain-16.png",
+            "tints/cream/rain-20.png",
+            "tints/cream/rain-24.png",
+            "tints/cream/rain-32.png",
+            "tints/cream/rain-48.png"
+          ],
+          "warning": [
+            "tints/warning/rain-16.png",
+            "tints/warning/rain-20.png",
+            "tints/warning/rain-24.png",
+            "tints/warning/rain-32.png",
+            "tints/warning/rain-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "category": "time-calendar-alarms",
+      "tags": [
+        "clock",
+        "time",
+        "watch",
+        "analog",
+        "hour"
+      ],
+      "aliases": [
+        "time",
+        "watch"
+      ],
+      "recommendedUse": "Time display / analog clock.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/clock.svg",
+        "grid": "source/grid/clock.json",
+        "png": {
+          "16": "png/16/clock.png",
+          "20": "png/20/clock.png",
+          "24": "png/24/clock.png",
+          "32": "png/32/clock.png",
+          "48": "png/48/clock.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/clock-16.png",
+            "monochrome/black/clock-20.png",
+            "monochrome/black/clock-24.png",
+            "monochrome/black/clock-32.png",
+            "monochrome/black/clock-48.png"
+          ],
+          "white": [
+            "monochrome/white/clock-16.png",
+            "monochrome/white/clock-20.png",
+            "monochrome/white/clock-24.png",
+            "monochrome/white/clock-32.png",
+            "monochrome/white/clock-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/clock-16.png",
+            "monochrome/one-bit/clock-20.png",
+            "monochrome/one-bit/clock-24.png",
+            "monochrome/one-bit/clock-32.png",
+            "monochrome/one-bit/clock-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/clock-16.png",
+            "tints/pond/clock-20.png",
+            "tints/pond/clock-24.png",
+            "tints/pond/clock-32.png",
+            "tints/pond/clock-48.png"
+          ],
+          "night": [
+            "tints/night/clock-16.png",
+            "tints/night/clock-20.png",
+            "tints/night/clock-24.png",
+            "tints/night/clock-32.png",
+            "tints/night/clock-48.png"
+          ],
+          "cream": [
+            "tints/cream/clock-16.png",
+            "tints/cream/clock-20.png",
+            "tints/cream/clock-24.png",
+            "tints/cream/clock-32.png",
+            "tints/cream/clock-48.png"
+          ],
+          "warning": [
+            "tints/warning/clock-16.png",
+            "tints/warning/clock-20.png",
+            "tints/warning/clock-24.png",
+            "tints/warning/clock-32.png",
+            "tints/warning/clock-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "category": "time-calendar-alarms",
+      "tags": [
+        "calendar",
+        "date",
+        "schedule",
+        "month",
+        "time"
+      ],
+      "aliases": [
+        "date",
+        "month"
+      ],
+      "recommendedUse": "Calendar / date.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/calendar.svg",
+        "grid": "source/grid/calendar.json",
+        "png": {
+          "16": "png/16/calendar.png",
+          "20": "png/20/calendar.png",
+          "24": "png/24/calendar.png",
+          "32": "png/32/calendar.png",
+          "48": "png/48/calendar.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/calendar-16.png",
+            "monochrome/black/calendar-20.png",
+            "monochrome/black/calendar-24.png",
+            "monochrome/black/calendar-32.png",
+            "monochrome/black/calendar-48.png"
+          ],
+          "white": [
+            "monochrome/white/calendar-16.png",
+            "monochrome/white/calendar-20.png",
+            "monochrome/white/calendar-24.png",
+            "monochrome/white/calendar-32.png",
+            "monochrome/white/calendar-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/calendar-16.png",
+            "monochrome/one-bit/calendar-20.png",
+            "monochrome/one-bit/calendar-24.png",
+            "monochrome/one-bit/calendar-32.png",
+            "monochrome/one-bit/calendar-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/calendar-16.png",
+            "tints/pond/calendar-20.png",
+            "tints/pond/calendar-24.png",
+            "tints/pond/calendar-32.png",
+            "tints/pond/calendar-48.png"
+          ],
+          "night": [
+            "tints/night/calendar-16.png",
+            "tints/night/calendar-20.png",
+            "tints/night/calendar-24.png",
+            "tints/night/calendar-32.png",
+            "tints/night/calendar-48.png"
+          ],
+          "cream": [
+            "tints/cream/calendar-16.png",
+            "tints/cream/calendar-20.png",
+            "tints/cream/calendar-24.png",
+            "tints/cream/calendar-32.png",
+            "tints/cream/calendar-48.png"
+          ],
+          "warning": [
+            "tints/warning/calendar-16.png",
+            "tints/warning/calendar-20.png",
+            "tints/warning/calendar-24.png",
+            "tints/warning/calendar-32.png",
+            "tints/warning/calendar-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm",
+      "category": "time-calendar-alarms",
+      "tags": [
+        "alarm",
+        "clock",
+        "alarm-clock",
+        "time",
+        "wake",
+        "bell"
+      ],
+      "aliases": [
+        "alarm-clock",
+        "wake"
+      ],
+      "recommendedUse": "Alarm set / wake time.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/alarm.svg",
+        "grid": "source/grid/alarm.json",
+        "png": {
+          "16": "png/16/alarm.png",
+          "20": "png/20/alarm.png",
+          "24": "png/24/alarm.png",
+          "32": "png/32/alarm.png",
+          "48": "png/48/alarm.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/alarm-16.png",
+            "monochrome/black/alarm-20.png",
+            "monochrome/black/alarm-24.png",
+            "monochrome/black/alarm-32.png",
+            "monochrome/black/alarm-48.png"
+          ],
+          "white": [
+            "monochrome/white/alarm-16.png",
+            "monochrome/white/alarm-20.png",
+            "monochrome/white/alarm-24.png",
+            "monochrome/white/alarm-32.png",
+            "monochrome/white/alarm-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/alarm-16.png",
+            "monochrome/one-bit/alarm-20.png",
+            "monochrome/one-bit/alarm-24.png",
+            "monochrome/one-bit/alarm-32.png",
+            "monochrome/one-bit/alarm-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/alarm-16.png",
+            "tints/pond/alarm-20.png",
+            "tints/pond/alarm-24.png",
+            "tints/pond/alarm-32.png",
+            "tints/pond/alarm-48.png"
+          ],
+          "night": [
+            "tints/night/alarm-16.png",
+            "tints/night/alarm-20.png",
+            "tints/night/alarm-24.png",
+            "tints/night/alarm-32.png",
+            "tints/night/alarm-48.png"
+          ],
+          "cream": [
+            "tints/cream/alarm-16.png",
+            "tints/cream/alarm-20.png",
+            "tints/cream/alarm-24.png",
+            "tints/cream/alarm-32.png",
+            "tints/cream/alarm-48.png"
+          ],
+          "warning": [
+            "tints/warning/alarm-16.png",
+            "tints/warning/alarm-20.png",
+            "tints/warning/alarm-24.png",
+            "tints/warning/alarm-32.png",
+            "tints/warning/alarm-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "category": "navigation-travel",
+      "tags": [
+        "map",
+        "fold",
+        "travel",
+        "navigation",
+        "paper",
+        "accordion"
+      ],
+      "aliases": [
+        "folded map",
+        "travel map",
+        "paper map",
+        "atlas"
+      ],
+      "recommendedUse": "Use for map, directions, location overview, or trip-planning entry points in a navigation menu.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "One connected folded paper map: three panels with a zig-zag (accordion) top and bottom edge and two enclosed 1px negative-space fold creases, kept a single silhouette so it never splits into separate bars.",
+      "files": {
+        "svg": "source/svg/map.svg",
+        "grid": "source/grid/map.json",
+        "png": {
+          "16": "png/16/map.png",
+          "20": "png/20/map.png",
+          "24": "png/24/map.png",
+          "32": "png/32/map.png",
+          "48": "png/48/map.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/map-16.png",
+            "monochrome/black/map-20.png",
+            "monochrome/black/map-24.png",
+            "monochrome/black/map-32.png",
+            "monochrome/black/map-48.png"
+          ],
+          "white": [
+            "monochrome/white/map-16.png",
+            "monochrome/white/map-20.png",
+            "monochrome/white/map-24.png",
+            "monochrome/white/map-32.png",
+            "monochrome/white/map-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/map-16.png",
+            "monochrome/one-bit/map-20.png",
+            "monochrome/one-bit/map-24.png",
+            "monochrome/one-bit/map-32.png",
+            "monochrome/one-bit/map-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/map-16.png",
+            "tints/pond/map-20.png",
+            "tints/pond/map-24.png",
+            "tints/pond/map-32.png",
+            "tints/pond/map-48.png"
+          ],
+          "night": [
+            "tints/night/map-16.png",
+            "tints/night/map-20.png",
+            "tints/night/map-24.png",
+            "tints/night/map-32.png",
+            "tints/night/map-48.png"
+          ],
+          "cream": [
+            "tints/cream/map-16.png",
+            "tints/cream/map-20.png",
+            "tints/cream/map-24.png",
+            "tints/cream/map-32.png",
+            "tints/cream/map-48.png"
+          ],
+          "warning": [
+            "tints/warning/map-16.png",
+            "tints/warning/map-20.png",
+            "tints/warning/map-24.png",
+            "tints/warning/map-32.png",
+            "tints/warning/map-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "location",
+      "name": "Location",
+      "category": "navigation-travel",
+      "tags": [
+        "location",
+        "pin",
+        "map",
+        "marker",
+        "navigation",
+        "waypoint",
+        "gps"
+      ],
+      "aliases": [
+        "map pin",
+        "you are here",
+        "place marker",
+        "drop pin"
+      ],
+      "recommendedUse": "Use to mark a place, destination, or current location on maps and navigation screens.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "A solid teardrop built as orthogonal staircases: a round head with a fully-enclosed circular eye carved as negative space, tapering to a single edge-connected point at bottom-center.",
+      "files": {
+        "svg": "source/svg/location.svg",
+        "grid": "source/grid/location.json",
+        "png": {
+          "16": "png/16/location.png",
+          "20": "png/20/location.png",
+          "24": "png/24/location.png",
+          "32": "png/32/location.png",
+          "48": "png/48/location.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/location-16.png",
+            "monochrome/black/location-20.png",
+            "monochrome/black/location-24.png",
+            "monochrome/black/location-32.png",
+            "monochrome/black/location-48.png"
+          ],
+          "white": [
+            "monochrome/white/location-16.png",
+            "monochrome/white/location-20.png",
+            "monochrome/white/location-24.png",
+            "monochrome/white/location-32.png",
+            "monochrome/white/location-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/location-16.png",
+            "monochrome/one-bit/location-20.png",
+            "monochrome/one-bit/location-24.png",
+            "monochrome/one-bit/location-32.png",
+            "monochrome/one-bit/location-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/location-16.png",
+            "tints/pond/location-20.png",
+            "tints/pond/location-24.png",
+            "tints/pond/location-32.png",
+            "tints/pond/location-48.png"
+          ],
+          "night": [
+            "tints/night/location-16.png",
+            "tints/night/location-20.png",
+            "tints/night/location-24.png",
+            "tints/night/location-32.png",
+            "tints/night/location-48.png"
+          ],
+          "cream": [
+            "tints/cream/location-16.png",
+            "tints/cream/location-20.png",
+            "tints/cream/location-24.png",
+            "tints/cream/location-32.png",
+            "tints/cream/location-48.png"
+          ],
+          "warning": [
+            "tints/warning/location-16.png",
+            "tints/warning/location-20.png",
+            "tints/warning/location-24.png",
+            "tints/warning/location-32.png",
+            "tints/warning/location-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "phone",
+      "name": "Phone",
+      "category": "calls-messages",
+      "tags": [
+        "phone",
+        "call",
+        "handset",
+        "telephone",
+        "dial",
+        "ring",
+        "contact"
+      ],
+      "aliases": [
+        "call",
+        "telephone",
+        "dial"
+      ],
+      "recommendedUse": "Make or receive a call; phone/dialer launcher; call complication.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/phone.svg",
+        "grid": "source/grid/phone.json",
+        "png": {
+          "16": "png/16/phone.png",
+          "20": "png/20/phone.png",
+          "24": "png/24/phone.png",
+          "32": "png/32/phone.png",
+          "48": "png/48/phone.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/phone-16.png",
+            "monochrome/black/phone-20.png",
+            "monochrome/black/phone-24.png",
+            "monochrome/black/phone-32.png",
+            "monochrome/black/phone-48.png"
+          ],
+          "white": [
+            "monochrome/white/phone-16.png",
+            "monochrome/white/phone-20.png",
+            "monochrome/white/phone-24.png",
+            "monochrome/white/phone-32.png",
+            "monochrome/white/phone-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/phone-16.png",
+            "monochrome/one-bit/phone-20.png",
+            "monochrome/one-bit/phone-24.png",
+            "monochrome/one-bit/phone-32.png",
+            "monochrome/one-bit/phone-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/phone-16.png",
+            "tints/pond/phone-20.png",
+            "tints/pond/phone-24.png",
+            "tints/pond/phone-32.png",
+            "tints/pond/phone-48.png"
+          ],
+          "night": [
+            "tints/night/phone-16.png",
+            "tints/night/phone-20.png",
+            "tints/night/phone-24.png",
+            "tints/night/phone-32.png",
+            "tints/night/phone-48.png"
+          ],
+          "cream": [
+            "tints/cream/phone-16.png",
+            "tints/cream/phone-20.png",
+            "tints/cream/phone-24.png",
+            "tints/cream/phone-32.png",
+            "tints/cream/phone-48.png"
+          ],
+          "warning": [
+            "tints/warning/phone-16.png",
+            "tints/warning/phone-20.png",
+            "tints/warning/phone-24.png",
+            "tints/warning/phone-32.png",
+            "tints/warning/phone-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "message",
+      "name": "Message",
+      "category": "calls-messages",
+      "tags": [
+        "message",
+        "chat",
+        "text",
+        "sms",
+        "bubble",
+        "talk",
+        "comment"
+      ],
+      "aliases": [
+        "text",
+        "sms",
+        "comment",
+        "dm"
+      ],
+      "recommendedUse": "Single message or SMS; messaging launcher; new-text complication.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink silhouette; details are negative space. Complication-safe; tints uniformly.",
+      "files": {
+        "svg": "source/svg/message.svg",
+        "grid": "source/grid/message.json",
+        "png": {
+          "16": "png/16/message.png",
+          "20": "png/20/message.png",
+          "24": "png/24/message.png",
+          "32": "png/32/message.png",
+          "48": "png/48/message.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/message-16.png",
+            "monochrome/black/message-20.png",
+            "monochrome/black/message-24.png",
+            "monochrome/black/message-32.png",
+            "monochrome/black/message-48.png"
+          ],
+          "white": [
+            "monochrome/white/message-16.png",
+            "monochrome/white/message-20.png",
+            "monochrome/white/message-24.png",
+            "monochrome/white/message-32.png",
+            "monochrome/white/message-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/message-16.png",
+            "monochrome/one-bit/message-20.png",
+            "monochrome/one-bit/message-24.png",
+            "monochrome/one-bit/message-32.png",
+            "monochrome/one-bit/message-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/message-16.png",
+            "tints/pond/message-20.png",
+            "tints/pond/message-24.png",
+            "tints/pond/message-32.png",
+            "tints/pond/message-48.png"
+          ],
+          "night": [
+            "tints/night/message-16.png",
+            "tints/night/message-20.png",
+            "tints/night/message-24.png",
+            "tints/night/message-32.png",
+            "tints/night/message-48.png"
+          ],
+          "cream": [
+            "tints/cream/message-16.png",
+            "tints/cream/message-20.png",
+            "tints/cream/message-24.png",
+            "tints/cream/message-32.png",
+            "tints/cream/message-48.png"
+          ],
+          "warning": [
+            "tints/warning/message-16.png",
+            "tints/warning/message-20.png",
+            "tints/warning/message-24.png",
+            "tints/warning/message-32.png",
+            "tints/warning/message-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "play",
+      "name": "Play",
+      "category": "media-controls",
+      "tags": [
+        "play",
+        "start",
+        "resume",
+        "media",
+        "playback",
+        "control",
+        "triangle",
+        "button"
+      ],
+      "aliases": [
+        "start",
+        "resume",
+        "go"
+      ],
+      "recommendedUse": "Start or resume media playback; play button for music, video, and podcast complications or watch-face transport controls.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink right-pointing triangle.",
+      "files": {
+        "svg": "source/svg/play.svg",
+        "grid": "source/grid/play.json",
+        "png": {
+          "16": "png/16/play.png",
+          "20": "png/20/play.png",
+          "24": "png/24/play.png",
+          "32": "png/32/play.png",
+          "48": "png/48/play.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/play-16.png",
+            "monochrome/black/play-20.png",
+            "monochrome/black/play-24.png",
+            "monochrome/black/play-32.png",
+            "monochrome/black/play-48.png"
+          ],
+          "white": [
+            "monochrome/white/play-16.png",
+            "monochrome/white/play-20.png",
+            "monochrome/white/play-24.png",
+            "monochrome/white/play-32.png",
+            "monochrome/white/play-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/play-16.png",
+            "monochrome/one-bit/play-20.png",
+            "monochrome/one-bit/play-24.png",
+            "monochrome/one-bit/play-32.png",
+            "monochrome/one-bit/play-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/play-16.png",
+            "tints/pond/play-20.png",
+            "tints/pond/play-24.png",
+            "tints/pond/play-32.png",
+            "tints/pond/play-48.png"
+          ],
+          "night": [
+            "tints/night/play-16.png",
+            "tints/night/play-20.png",
+            "tints/night/play-24.png",
+            "tints/night/play-32.png",
+            "tints/night/play-48.png"
+          ],
+          "cream": [
+            "tints/cream/play-16.png",
+            "tints/cream/play-20.png",
+            "tints/cream/play-24.png",
+            "tints/cream/play-32.png",
+            "tints/cream/play-48.png"
+          ],
+          "warning": [
+            "tints/warning/play-16.png",
+            "tints/warning/play-20.png",
+            "tints/warning/play-24.png",
+            "tints/warning/play-32.png",
+            "tints/warning/play-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pause",
+      "name": "Pause",
+      "category": "media-controls",
+      "tags": [
+        "pause",
+        "hold",
+        "media",
+        "playback",
+        "control",
+        "bars",
+        "button"
+      ],
+      "aliases": [
+        "hold",
+        "halt",
+        "wait"
+      ],
+      "recommendedUse": "Pause active media playback; pairs with play in transport controls.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Two vertical bars.",
+      "files": {
+        "svg": "source/svg/pause.svg",
+        "grid": "source/grid/pause.json",
+        "png": {
+          "16": "png/16/pause.png",
+          "20": "png/20/pause.png",
+          "24": "png/24/pause.png",
+          "32": "png/32/pause.png",
+          "48": "png/48/pause.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/pause-16.png",
+            "monochrome/black/pause-20.png",
+            "monochrome/black/pause-24.png",
+            "monochrome/black/pause-32.png",
+            "monochrome/black/pause-48.png"
+          ],
+          "white": [
+            "monochrome/white/pause-16.png",
+            "monochrome/white/pause-20.png",
+            "monochrome/white/pause-24.png",
+            "monochrome/white/pause-32.png",
+            "monochrome/white/pause-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/pause-16.png",
+            "monochrome/one-bit/pause-20.png",
+            "monochrome/one-bit/pause-24.png",
+            "monochrome/one-bit/pause-32.png",
+            "monochrome/one-bit/pause-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/pause-16.png",
+            "tints/pond/pause-20.png",
+            "tints/pond/pause-24.png",
+            "tints/pond/pause-32.png",
+            "tints/pond/pause-48.png"
+          ],
+          "night": [
+            "tints/night/pause-16.png",
+            "tints/night/pause-20.png",
+            "tints/night/pause-24.png",
+            "tints/night/pause-32.png",
+            "tints/night/pause-48.png"
+          ],
+          "cream": [
+            "tints/cream/pause-16.png",
+            "tints/cream/pause-20.png",
+            "tints/cream/pause-24.png",
+            "tints/cream/pause-32.png",
+            "tints/cream/pause-48.png"
+          ],
+          "warning": [
+            "tints/warning/pause-16.png",
+            "tints/warning/pause-20.png",
+            "tints/warning/pause-24.png",
+            "tints/warning/pause-32.png",
+            "tints/warning/pause-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "check",
+      "name": "Check",
+      "category": "status-system",
+      "tags": [
+        "check",
+        "success",
+        "done",
+        "complete",
+        "confirm",
+        "ok",
+        "status",
+        "system",
+        "wear-os",
+        "watch-face"
+      ],
+      "aliases": [
+        "success",
+        "done",
+        "complete",
+        "ok"
+      ],
+      "recommendedUse": "Success, completed, confirmed, selected, or okay states in compact Wear OS status surfaces.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Bare bold check mark; kept free of a circle so it does not collide with info or do-not-disturb.",
+      "files": {
+        "svg": "source/svg/check.svg",
+        "grid": "source/grid/check.json",
+        "png": {
+          "16": "png/16/check.png",
+          "20": "png/20/check.png",
+          "24": "png/24/check.png",
+          "32": "png/32/check.png",
+          "48": "png/48/check.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/check-16.png",
+            "monochrome/black/check-20.png",
+            "monochrome/black/check-24.png",
+            "monochrome/black/check-32.png",
+            "monochrome/black/check-48.png"
+          ],
+          "white": [
+            "monochrome/white/check-16.png",
+            "monochrome/white/check-20.png",
+            "monochrome/white/check-24.png",
+            "monochrome/white/check-32.png",
+            "monochrome/white/check-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/check-16.png",
+            "monochrome/one-bit/check-20.png",
+            "monochrome/one-bit/check-24.png",
+            "monochrome/one-bit/check-32.png",
+            "monochrome/one-bit/check-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/check-16.png",
+            "tints/pond/check-20.png",
+            "tints/pond/check-24.png",
+            "tints/pond/check-32.png",
+            "tints/pond/check-48.png"
+          ],
+          "night": [
+            "tints/night/check-16.png",
+            "tints/night/check-20.png",
+            "tints/night/check-24.png",
+            "tints/night/check-32.png",
+            "tints/night/check-48.png"
+          ],
+          "cream": [
+            "tints/cream/check-16.png",
+            "tints/cream/check-20.png",
+            "tints/cream/check-24.png",
+            "tints/cream/check-32.png",
+            "tints/cream/check-48.png"
+          ],
+          "warning": [
+            "tints/warning/check-16.png",
+            "tints/warning/check-20.png",
+            "tints/warning/check-24.png",
+            "tints/warning/check-32.png",
+            "tints/warning/check-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "warning",
+      "name": "Warning",
+      "category": "status-system",
+      "tags": [
+        "warning",
+        "alert",
+        "caution",
+        "danger",
+        "triangle",
+        "exclamation",
+        "status",
+        "system",
+        "wear-os",
+        "watch-face"
+      ],
+      "aliases": [
+        "alert",
+        "caution",
+        "danger",
+        "attention"
+      ],
+      "recommendedUse": "Warning, caution, attention, risk, or system alert states in tiny Wear OS status areas.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Triangle warning emblem with a bold internal exclamation mark.",
+      "files": {
+        "svg": "source/svg/warning.svg",
+        "grid": "source/grid/warning.json",
+        "png": {
+          "16": "png/16/warning.png",
+          "20": "png/20/warning.png",
+          "24": "png/24/warning.png",
+          "32": "png/32/warning.png",
+          "48": "png/48/warning.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/warning-16.png",
+            "monochrome/black/warning-20.png",
+            "monochrome/black/warning-24.png",
+            "monochrome/black/warning-32.png",
+            "monochrome/black/warning-48.png"
+          ],
+          "white": [
+            "monochrome/white/warning-16.png",
+            "monochrome/white/warning-20.png",
+            "monochrome/white/warning-24.png",
+            "monochrome/white/warning-32.png",
+            "monochrome/white/warning-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/warning-16.png",
+            "monochrome/one-bit/warning-20.png",
+            "monochrome/one-bit/warning-24.png",
+            "monochrome/one-bit/warning-32.png",
+            "monochrome/one-bit/warning-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/warning-16.png",
+            "tints/pond/warning-20.png",
+            "tints/pond/warning-24.png",
+            "tints/pond/warning-32.png",
+            "tints/pond/warning-48.png"
+          ],
+          "night": [
+            "tints/night/warning-16.png",
+            "tints/night/warning-20.png",
+            "tints/night/warning-24.png",
+            "tints/night/warning-32.png",
+            "tints/night/warning-48.png"
+          ],
+          "cream": [
+            "tints/cream/warning-16.png",
+            "tints/cream/warning-20.png",
+            "tints/cream/warning-24.png",
+            "tints/cream/warning-32.png",
+            "tints/cream/warning-48.png"
+          ],
+          "warning": [
+            "tints/warning/warning-16.png",
+            "tints/warning/warning-20.png",
+            "tints/warning/warning-24.png",
+            "tints/warning/warning-32.png",
+            "tints/warning/warning-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "wifi",
+      "name": "Wifi",
+      "category": "status-system",
+      "tags": [
+        "wifi",
+        "wireless",
+        "network",
+        "connection",
+        "online",
+        "signal",
+        "status",
+        "system",
+        "wear-os",
+        "watch-face"
+      ],
+      "aliases": [
+        "wi-fi",
+        "wireless",
+        "network",
+        "connection"
+      ],
+      "recommendedUse": "Wi-Fi, wireless network, connected, online, or local network status in compact Wear OS surfaces.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Three stacked wireless arcs plus a center dot; separated from signal by arc silhouette.",
+      "files": {
+        "svg": "source/svg/wifi.svg",
+        "grid": "source/grid/wifi.json",
+        "png": {
+          "16": "png/16/wifi.png",
+          "20": "png/20/wifi.png",
+          "24": "png/24/wifi.png",
+          "32": "png/32/wifi.png",
+          "48": "png/48/wifi.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/wifi-16.png",
+            "monochrome/black/wifi-20.png",
+            "monochrome/black/wifi-24.png",
+            "monochrome/black/wifi-32.png",
+            "monochrome/black/wifi-48.png"
+          ],
+          "white": [
+            "monochrome/white/wifi-16.png",
+            "monochrome/white/wifi-20.png",
+            "monochrome/white/wifi-24.png",
+            "monochrome/white/wifi-32.png",
+            "monochrome/white/wifi-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/wifi-16.png",
+            "monochrome/one-bit/wifi-20.png",
+            "monochrome/one-bit/wifi-24.png",
+            "monochrome/one-bit/wifi-32.png",
+            "monochrome/one-bit/wifi-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/wifi-16.png",
+            "tints/pond/wifi-20.png",
+            "tints/pond/wifi-24.png",
+            "tints/pond/wifi-32.png",
+            "tints/pond/wifi-48.png"
+          ],
+          "night": [
+            "tints/night/wifi-16.png",
+            "tints/night/wifi-20.png",
+            "tints/night/wifi-24.png",
+            "tints/night/wifi-32.png",
+            "tints/night/wifi-48.png"
+          ],
+          "cream": [
+            "tints/cream/wifi-16.png",
+            "tints/cream/wifi-20.png",
+            "tints/cream/wifi-24.png",
+            "tints/cream/wifi-32.png",
+            "tints/cream/wifi-48.png"
+          ],
+          "warning": [
+            "tints/warning/wifi-16.png",
+            "tints/warning/wifi-20.png",
+            "tints/warning/wifi-24.png",
+            "tints/warning/wifi-32.png",
+            "tints/warning/wifi-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "watch-face",
+      "name": "Watch Face",
+      "category": "watch-face-ui-misc",
+      "tags": [
+        "watch-face",
+        "watch",
+        "face",
+        "dial",
+        "wear-os",
+        "ui",
+        "customization",
+        "template"
+      ],
+      "aliases": [
+        "face",
+        "watch",
+        "watchface",
+        "template"
+      ],
+      "recommendedUse": "Watch face picker, face template, wearable UI surface, or general watch-face customization entry points.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Round face with top and bottom strap blocks; distinct from clock by using a watch-body silhouette.",
+      "files": {
+        "svg": "source/svg/watch-face.svg",
+        "grid": "source/grid/watch-face.json",
+        "png": {
+          "16": "png/16/watch-face.png",
+          "20": "png/20/watch-face.png",
+          "24": "png/24/watch-face.png",
+          "32": "png/32/watch-face.png",
+          "48": "png/48/watch-face.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/watch-face-16.png",
+            "monochrome/black/watch-face-20.png",
+            "monochrome/black/watch-face-24.png",
+            "monochrome/black/watch-face-32.png",
+            "monochrome/black/watch-face-48.png"
+          ],
+          "white": [
+            "monochrome/white/watch-face-16.png",
+            "monochrome/white/watch-face-20.png",
+            "monochrome/white/watch-face-24.png",
+            "monochrome/white/watch-face-32.png",
+            "monochrome/white/watch-face-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/watch-face-16.png",
+            "monochrome/one-bit/watch-face-20.png",
+            "monochrome/one-bit/watch-face-24.png",
+            "monochrome/one-bit/watch-face-32.png",
+            "monochrome/one-bit/watch-face-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/watch-face-16.png",
+            "tints/pond/watch-face-20.png",
+            "tints/pond/watch-face-24.png",
+            "tints/pond/watch-face-32.png",
+            "tints/pond/watch-face-48.png"
+          ],
+          "night": [
+            "tints/night/watch-face-16.png",
+            "tints/night/watch-face-20.png",
+            "tints/night/watch-face-24.png",
+            "tints/night/watch-face-32.png",
+            "tints/night/watch-face-48.png"
+          ],
+          "cream": [
+            "tints/cream/watch-face-16.png",
+            "tints/cream/watch-face-20.png",
+            "tints/cream/watch-face-24.png",
+            "tints/cream/watch-face-32.png",
+            "tints/cream/watch-face-48.png"
+          ],
+          "warning": [
+            "tints/warning/watch-face-16.png",
+            "tints/warning/watch-face-20.png",
+            "tints/warning/watch-face-24.png",
+            "tints/warning/watch-face-32.png",
+            "tints/warning/watch-face-48.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "category": "pets-cozy-fun",
+      "tags": [
+        "fish",
+        "koi",
+        "pond",
+        "pet",
+        "aquatic",
+        "water",
+        "swim",
+        "ocean",
+        "aquarium"
+      ],
+      "aliases": [
+        "koi",
+        "goldfish",
+        "swim"
+      ],
+      "recommendedUse": "Pet/companion, aquatic, fishing, aquarium, or pond/koi motifs; cozy watch-face decoration; on-brand Pixelpond accent.",
+      "sourceGrid": "16x16",
+      "exportSizes": [
+        16,
+        20,
+        24,
+        32,
+        48
+      ],
+      "ambientSafe": true,
+      "monochrome": true,
+      "notes": "Single-ink right-facing koi; eye is negative space.",
+      "files": {
+        "svg": "source/svg/fish.svg",
+        "grid": "source/grid/fish.json",
+        "png": {
+          "16": "png/16/fish.png",
+          "20": "png/20/fish.png",
+          "24": "png/24/fish.png",
+          "32": "png/32/fish.png",
+          "48": "png/48/fish.png"
+        },
+        "monochrome": {
+          "black": [
+            "monochrome/black/fish-16.png",
+            "monochrome/black/fish-20.png",
+            "monochrome/black/fish-24.png",
+            "monochrome/black/fish-32.png",
+            "monochrome/black/fish-48.png"
+          ],
+          "white": [
+            "monochrome/white/fish-16.png",
+            "monochrome/white/fish-20.png",
+            "monochrome/white/fish-24.png",
+            "monochrome/white/fish-32.png",
+            "monochrome/white/fish-48.png"
+          ],
+          "one-bit": [
+            "monochrome/one-bit/fish-16.png",
+            "monochrome/one-bit/fish-20.png",
+            "monochrome/one-bit/fish-24.png",
+            "monochrome/one-bit/fish-32.png",
+            "monochrome/one-bit/fish-48.png"
+          ]
+        },
+        "tints": {
+          "pond": [
+            "tints/pond/fish-16.png",
+            "tints/pond/fish-20.png",
+            "tints/pond/fish-24.png",
+            "tints/pond/fish-32.png",
+            "tints/pond/fish-48.png"
+          ],
+          "night": [
+            "tints/night/fish-16.png",
+            "tints/night/fish-20.png",
+            "tints/night/fish-24.png",
+            "tints/night/fish-32.png",
+            "tints/night/fish-48.png"
+          ],
+          "cream": [
+            "tints/cream/fish-16.png",
+            "tints/cream/fish-20.png",
+            "tints/cream/fish-24.png",
+            "tints/cream/fish-32.png",
+            "tints/cream/fish-48.png"
+          ],
+          "warning": [
+            "tints/warning/fish-16.png",
+            "tints/warning/fish-20.png",
+            "tints/warning/fish-24.png",
+            "tints/warning/fish-32.png",
+            "tints/warning/fish-48.png"
+          ]
+        },
+        "example": "examples/wff-complication-snippets/fish.xml"
+      }
+    }
+  ]
+}
